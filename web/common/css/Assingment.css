@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.right-menu li{
+    display: inline-block;
+    margin-top: 30px !important;
+    margin-right: 15px;
+}
+.right-menu .fa{
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 90px;
+}
+.navbar-brand {
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+header{
+    background: #ffffff;
+}
+.navbar{
+    padding: 0 35px !important;
+}    
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler-icon{
+    cursor: pointer;
+}
+
+.activeVN{
+    color: hsl(16, 88%, 58%);
+    display: inline;
+    letter-spacing: 1px;
+    line-height: 12px;
+    text-align: left;
+}
+.activeEN{
+    color: hsl(214, 4%, 64%);
+    display: inline;
+    letter-spacing: 1px;
+    line-height: 12px;
+    text-align: left;
+}
+.fas fa-search{
+    cursor: pointer;
+}
+
+
+/* MAIN CONTENT */
+.col-md-1{
+    color: hsl(213, 56%, 16%);
+    flex-basis: 66.6667%;
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    padding: 0px 12px;
+    text-align: left;
+}
+.showtimes{
+    color: hsl(213, 56%, 16%);
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    text-align: left;
+}
+.card-body{
+    color: hsl(213, 56%, 16%);
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    padding: 16px;
+    text-align: left;
+}
+.rounded .img-fluid{
+    border-radius: 6px;
+    color: hsl(215, 78%, 39%);
+    display: inline;
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    text-align: center;
+    
+}
+img{
+    visibility: visible;
+}
+.col .ml-n2{
+    color: hsl(213, 56%, 16%);
+    flex-basis: 0px;
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    margin: 0px 0px 0px -6px;
+    padding: 0px 12px;
+    text-align: left;
+}
+.card-title .mb-1 .name{
+    color: hsl(213, 56%, 16%);
+    font-size: 15px;
+    font-weight: 500;
+    gap: normal;
+    letter-spacing: -0.3px;
+    line-height: 16.5px;
+    margin: 0px 0px 3px;
+    text-align: left;
+}
+.card-text .small .text-muted .mb-0{
+    color: hsl(216, 32%, 69%);
+    font-size: 13px;
+    gap: normal;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+.mb-1{
+    color: hsl(213, 56%, 16%);
+    font-size: 15px;
+    gap: normal;
+    line-height: 22.5px;
+    margin: 0px 0px 3px;
+    text-align: left;
+}
+
+
+
+
+
+.tab-movies{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.title{
+    text-align: center;
+    margin: 20px auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fas {
+    color: #ff523b;
+}
+.rating .far {
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px) ;
+}
+.name-movie{
+    margin-top: 15px;
+}
+
+.pull-right{
+    float: right !important;
+}
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f26b38;
+    border: 1px solid #f26b38;
+    padding: 15px 20px;
+    text-decoration: none;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+/* --------footer------ */
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copy-right{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
